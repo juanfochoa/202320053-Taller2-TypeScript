@@ -42,7 +42,7 @@ function renderServiceInTable(series: Serie[]): void{
       
       details.innerHTML = `
         <div class="card">
-        <img src="${serie.image}" class="card-img-top" alt="${serie.name}">
+        <img src="${serie.image}" class="card-img-top" alt="${serie.name}" style="max-height: 300px; object-fit: cover;">
         <div class="card-body">
           <h5 class="card-title">${serie.name}</h5>
           <p class="card-text">${serie.description}</p>
